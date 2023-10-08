@@ -45,8 +45,7 @@ const List = () => {
           </h1>
           <Button
             text="Kembali"
-            background="[#6a5aa5]"
-            className="mb-3"
+            className="mb-3 bg-[#6a5aa5] hover:bg-[#BEADFA]"
             onClick={handleClickKembali}
           />
           <Table>
@@ -56,15 +55,13 @@ const List = () => {
                 <td className="px-6 py-4 whitespace-nowrap">{data.nim}</td>
                 <td className="w-auto  flex  justify-center my-2">
                   <Button
-                    background="[#6a5aa5]"
                     text="Edit"
-                    className="hover:bg-[#BEADFA] "
+                    className="mr-2 bg-[#6a5aa5] hover:bg-[#BEADFA]"
                     onClick={() => handleEdit(data.id)}
                   />
                   <Button
-                    background="[#BEADFA]"
                     text="Hapus"
-                    className="hover:bg-[#6a5aa5]"
+                    className="bg-[#BEADFA] hover:bg-[#6a5aa5]"
                     onClick={() => handleDelete(data.id)}
                   />
                 </td>
