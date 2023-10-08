@@ -60,14 +60,12 @@ const Home = () => {
             />
             <div className="flex justify-end w-[70%]">
               <Button
-                background="[#6a5aa5]"
                 text="Submit"
-                className="hover:bg-[#BEADFA] "
+                className="bg-[#6a5aa5] hover:bg-[#BEADFA] "
               />
               <Button
-                background="[#BEADFA]"
                 text="Lihat Data"
-                className="hover:bg-[#6a5aa5]"
+                className="bg-[#BEADFA] hover:bg-[#6a5aa5]"
                 onClick={handleClickLihatData}
               />
             </div>
